@@ -147,6 +147,28 @@ Examples:`main.exe -p SSH_crack -ip 192.168.189.1/24 -port 22 -c username.txt:pa
 
 ![image-20210323223749116](images/image-20210323223749116.png)
 
+## 4.5 Frp
+
+在服务器上设置frp服务端如下，token `4aSm7YUy`,目前token不可自定义，server port可自定义。然后启动frp服务器端
+
+![image-20210323224846533](images/image-20210323224846533.png)
+
+点击frp，点击以后会卡住是正常现象，因为此时在上传frp客户端
+
+![image-20210323225219834](images/image-20210323225219834.png)
+
+填写frp服务端ip，以及端口
+
+![image-20210323225610067](images/image-20210323225610067.png)
+
+会使用frp启动socks5代理，将内网代理出来。
+
+![image-20210323225729375](images/image-20210323225729375.png)
+
+通过TZ启动的frp客户端，连接参数使用AES强加密，避免服务器连接信息泄露
+
+![image-20210323230247657](images/image-20210323230247657.png)
+
 # 5.获取TZ
 
 功能持续更新ing......
