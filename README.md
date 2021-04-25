@@ -245,7 +245,7 @@ Examples:`main.exe -p SSH_crack -ip 192.168.189.1/24 -port 22 -c username.txt:pa
 
 适用于内网中简单文件传输等等场景
 
-`Examples:main.exe -p PingGateway -ip 192.168.189.1/24 -t 24`
+`Examples:main.exe -p WebServer -ip 192.168.189.1/24 -t 24`
 
 ![image-20210425171302071](images/image-20210425171302071.png)
 
