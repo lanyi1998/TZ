@@ -125,6 +125,14 @@ Examples:`main.exe -p PingGateway -ip 192.168.189.1/24 -t 24`
 
 CS插件路径  `网络发现->探测网段`
 
+## 3.7 OxidScan 多网卡扫描
+
+快速发现内网中的多网卡 高价值机器
+
+Examples:`main.exe  -ip 10.84.30.1/24 -p OxidScan `
+
+![image-20210425171004289](images/image-20210425171004289.png)
+
 # 4.Exploit plus
 
 所有crack插件，使用字典文件爆破时，字典文件均需包含`.txt`,插件才能识别是使用字典爆破，否则会当成单一密码处理。
@@ -232,6 +240,16 @@ Examples:`main.exe -p SSH_crack -ip 192.168.189.1/24 -port 22 -c username.txt:pa
 ## 4.8 mysql弱口令破解
 
 ![image-20210330205452321](images/image-20210330205452321.png)
+
+## 4.9 WebServer 开启简单Web服务
+
+适用于内网中简单文件传输等等场景
+
+`Examples:main.exe -p PingGateway -ip 192.168.189.1/24 -t 24`
+
+![image-20210425171302071](images/image-20210425171302071.png)
+
+![image-20210425171354220](images/image-20210425171354220.png)
 
 # 5.获取TZ
 
