@@ -227,11 +227,11 @@ Examples:`main.exe -p SSH_crack -ip 192.168.189.1/24 -port 22 -c username.txt:pa
 {"22", "80,", "81", "135", "139", "443", "445", "1433", "3306", "3389", "6379", "7001", "8009 ", "8080","9200", "17001"}
 ```
 
-![image-20210323222031316](file:///Users/k/Documents/TZ/images/image-20210323222031316.png?lastModify=1617103771)
+![image-20210323222031316](images/image-20210323222031316.png?lastModify=1617103771)
 
-![image-20210323222046262](file:///Users/k/Documents/TZ/images/image-20210323222046262.png?lastModify=1617103771)
+![image-20210323222046262](images/image-20210323222046262.png?lastModify=1617103771)
 
-![image-20210323222226594](file:///Users/k/Documents/TZ/images/image-20210323222226594.png?lastModify=1617103771)
+![image-20210323222226594](images/image-20210323222226594.png?lastModify=1617103771)
 
 可通过 `-c` 参数来指定想要扫描的端口，使用`,`分割
 
